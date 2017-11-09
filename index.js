@@ -1,14 +1,10 @@
 
-const callback = function (driver, index, drivers) {
+const logDriverNames = function (driver, index, drivers) {
   console.log(`${driver.name}`);
 }
 
 
-function logDriverNames(drivers) {
-  for (const driver of drivers) {
-    console.log(`${driver.name}`);
-  };
-}
+
 
 function logDriversByHometown() {
 
