@@ -1,4 +1,4 @@
 
-const logDriverNames() {
-  
+const logDriverNames = function () {
+
 }
