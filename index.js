@@ -7,4 +7,4 @@ function logDriverNames (drivers) {
   drivers.forEach(callback);
 }
 
-logDriverNames([{name: "annie"}])
+logDriverNames([{name: "annie"}, {name: "bobby"}])
