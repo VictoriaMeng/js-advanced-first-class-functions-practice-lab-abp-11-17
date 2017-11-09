@@ -15,5 +15,6 @@ function logDriversByHometown (drivers, place) {
    }
   }
 
+  drivers.forEach(callback);
 
 }
