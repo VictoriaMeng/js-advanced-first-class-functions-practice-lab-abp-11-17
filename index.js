@@ -3,3 +3,5 @@ function logDriverNames(drivers) {
     console.log(`hi`);
   }
 }
+
+logDriverNames({})
