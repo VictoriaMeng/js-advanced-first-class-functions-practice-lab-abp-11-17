@@ -6,4 +6,10 @@ function logDriverNames(drivers) {
   };
 }
 
+function logDriversByHometown() {
+  
+}
+
+
+
 logDriverNames([{name: 'Annie'}, {name: 'Bobby'}])
