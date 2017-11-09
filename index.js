@@ -30,6 +30,8 @@ function totalRevenue (drivers) {
   const addRevenue = function (sum, revenue) {
     return sum + revenue;
   }
+
+  return drivers.reduce(addRevenue, 0);
 }
 
 
