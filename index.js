@@ -1,10 +1,10 @@
 
-function logDriverNames (driver, index, drivers) {
+function logDriverNames(driver, index, drivers) {
   console.log(`${driver.name}`);
 }
 
 function logDriverNames() {
-  
+
 }
 
 
