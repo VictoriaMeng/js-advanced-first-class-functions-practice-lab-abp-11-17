@@ -26,6 +26,10 @@ function driversByName (drivers) {
   );
 }
 
+function totalRevenue () {
+  
+}
+
 
 
 logDriverNames([
