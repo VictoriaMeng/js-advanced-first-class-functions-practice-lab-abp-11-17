@@ -3,6 +3,10 @@ const printDrivers = function (driver, index, drivers) {
   console.log(`${driver.name}`);
 }
 
+function logDriverNames() {
+  
+}
+
 
 
 
