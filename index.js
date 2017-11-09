@@ -27,7 +27,9 @@ function driversByName (drivers) {
 }
 
 function totalRevenue (drivers) {
-  drivers.reduce () {};
+  for (const driver of drivers) {
+    
+  }
 }
 
 
