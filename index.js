@@ -2,6 +2,8 @@
 
 function logDriverNames(drivers) {
   for (const driver of drivers) {
-    console.log(`${name}`);
+    console.log(`${driver}`);
   };
 }
+
+logDriverNames
