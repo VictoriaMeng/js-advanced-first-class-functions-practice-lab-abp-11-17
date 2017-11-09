@@ -29,6 +29,7 @@ function driversByName (drivers) {
 function totalRevenue (drivers) {
   const addRevenue = function(agg, index, driver, drivers) {
     return agg + driver.revenue;
+    console.log(agg);
   };
 
   return drivers.reduce(addRevenue, 0);
