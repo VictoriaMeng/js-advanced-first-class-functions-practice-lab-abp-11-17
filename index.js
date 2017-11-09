@@ -7,7 +7,7 @@ function logDriverNames (drivers) {
 function logDriversByHometown (drivers, hometown) {
   for (const driver of drivers) {
     if (driver.hometown === hometown) {
-      
+      console.log(driver.name);
     }
   }
 }
