@@ -4,9 +4,9 @@ function logDriverNames (drivers) {
   }
 }
 
-function logDriversByHometown (drivers, place) {
+function logDriversByHometown (drivers, hometown) {
   for (const driver of drivers) {
-    
+    if (driver.hometown === hometown)
   }
 }
 
