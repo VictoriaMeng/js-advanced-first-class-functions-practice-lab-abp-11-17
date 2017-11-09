@@ -1,5 +1,5 @@
 
-const printDriver = function (driver, index, drivers) {
+const printDrivers = function (driver, index, drivers) {
   console.log(`${driver.name}`);
 }
 
