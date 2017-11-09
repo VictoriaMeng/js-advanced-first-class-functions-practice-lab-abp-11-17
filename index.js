@@ -1,6 +1,6 @@
 function logDriverNames (drivers) {
   for (const driver in drivers) {
-    console.log('hi');
+    console.log(driver.name);
   }
 }
 
@@ -10,4 +10,4 @@ logDriverNames([
   { name: 'Sammy',   hometown: 'Pittsburgh',  revenue: 2500 },
   { name: 'Annette', hometown: 'Los Angeles', revenue: 6000 },
   { name: 'Bobby',   hometown: 'Tampa Bay',   revenue: 5000 }
-])
+]);
