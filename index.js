@@ -31,6 +31,8 @@ function totalRevenue (drivers) {
     console.log(agg, index, driver);
   };
 
+  drivers.addRevenue;
+
 
 }
 
