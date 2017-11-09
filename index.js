@@ -16,6 +16,8 @@ function driversByRevenue (drivers) {
   const sorter = function (number1, number2) {
     return number1 - number2;
   }
+
+  return drivers.sort(numberSorter);
 }
 
 
