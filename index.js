@@ -6,3 +6,7 @@ function logDriverNames (drivers) {
 
   drivers.forEach(callback);
 }
+
+logDriverNames (drivers) {
+  
+}
