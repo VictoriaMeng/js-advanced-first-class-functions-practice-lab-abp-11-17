@@ -32,7 +32,6 @@ function totalRevenue (drivers) {
     console.log(agg);
   };
 
-  return drivers.reduce(addRevenue, 0);
 
 }
 
