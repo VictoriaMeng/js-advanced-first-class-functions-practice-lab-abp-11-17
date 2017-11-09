@@ -19,7 +19,9 @@ function driversByRevenue (drivers) {
   );
 }
 
-
+function totalRevenue () {
+  
+}
 
 
 
