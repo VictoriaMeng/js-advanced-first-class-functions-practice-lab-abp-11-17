@@ -5,7 +5,9 @@ function logDriverNames (drivers) {
 }
 
 function logDriversByHometown (drivers, place) {
-  
+  for (const driver of drivers) {
+    
+  }
 }
 
 logDriverNames([
@@ -15,5 +17,3 @@ logDriverNames([
   { name: 'Annette', hometown: 'Los Angeles', revenue: 6000 },
   { name: 'Bobby',   hometown: 'Tampa Bay',   revenue: 5000 }
 ]);
-
-
