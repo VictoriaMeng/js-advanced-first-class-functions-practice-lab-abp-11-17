@@ -36,7 +36,11 @@ function totalRevenue (drivers) {
 }
 
 function averageRevenue (drivers) {
-  
+  const addRevenue = function(agg, index, driver, drivers) {
+    return agg + index.revenue;
+  };
+
+  return drivers.reduce(addRevenue, 0) / drivers.length;
 }
 
 totalRevenue([
