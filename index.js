@@ -16,4 +16,4 @@ function logDriversByHometown() {
 
 
 
-logDriverNames([{name: 'Annie'}, {name: 'Bobby'}])
+[{name: 'Annie'}, {name: 'Bobby'}].forEach(callback);
