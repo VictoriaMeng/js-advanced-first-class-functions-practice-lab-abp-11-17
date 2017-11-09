@@ -7,6 +7,11 @@ function logDriverNames (drivers) {
   drivers.forEach(callback);
 }
 
-function logDriversByHometown (drivers, hometown) {
-  console.log(driver.name);
+function logDriversByHometown (drivers, place) {
+
+  const callback = function (driver, index, drivers) {
+    driver.hometown === place ? console.log(driver.name)
+  }
+  
+
 }
