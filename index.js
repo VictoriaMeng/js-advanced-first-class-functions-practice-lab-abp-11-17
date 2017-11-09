@@ -33,7 +33,7 @@ function totalRevenue (drivers) {
 
   };
 
-  return drivers.reduce(addRevenue(), 0);
+  return drivers.reduce(addRevenue, 0);
 }
 
 totalRevenue([
