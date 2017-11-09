@@ -27,11 +27,9 @@ function driversByName (drivers) {
 }
 
 function totalRevenue (drivers) {
-  const addRevenue = function (sum, revenue) {
-    return sum + revenue;
+  const revenues = function (driver, index, drivers) {
+    
   }
-
-  return drivers.reduce(addRevenue, 0);
 }
 
 
