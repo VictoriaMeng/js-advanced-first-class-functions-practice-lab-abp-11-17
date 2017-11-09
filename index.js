@@ -6,4 +6,4 @@ function logDriverNames(drivers) {
   };
 }
 
-logDriverNames
+logDriverNames({name: 'Annie'}, {name: 'Bobby'})
