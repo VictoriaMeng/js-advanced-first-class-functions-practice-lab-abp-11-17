@@ -19,7 +19,7 @@ function driversByRevenue (drivers) {
   );
 }
 
-function driversByName () {
+function driversByName (drivers) {
   const driversClone = drivers.slice(0);
   return driversClone.sort(
     function (driver1, driver2) {return driver1.name - driver2.name}
