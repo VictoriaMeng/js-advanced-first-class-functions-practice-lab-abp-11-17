@@ -5,3 +5,5 @@ function logDriverNames(drivers) {
     console.log(`${driver}`);
   };
 }
+
+logDriverNames([{name: 'Annie'}, {name: 'Bobby'}])
