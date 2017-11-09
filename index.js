@@ -3,3 +3,5 @@ const logDriverNames = function (driver) {
     console.log(driver.name);
   }
 }
+
+logDriverNames([{name: "Annie"}, {name: "Bob"}])
