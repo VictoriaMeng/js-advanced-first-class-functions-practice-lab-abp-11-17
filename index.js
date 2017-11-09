@@ -29,15 +29,16 @@ function driversByName (drivers) {
 function totalRevenue (drivers) {
   const addRevenue = function(agg, index, driver, drivers) {
     return agg + driver.revenue;
+    console.log(agg);
   };
 
   return drivers.reduce(addRevenue, 0);
 }
 
-console.log(totalRevenue([
+totalRevenue([
   { name: 'Bobby',   hometown: 'Pittsburgh',  revenue: 3000 },
   { name: 'Sally',   hometown: 'New York',    revenue: 2000 },
   { name: 'Sammy',   hometown: 'Pittsburgh',  revenue: 2500 },
   { name: 'Annette', hometown: 'Los Angeles', revenue: 6000 },
   { name: 'Bobby',   hometown: 'Tampa Bay',   revenue: 5000 }
-]))
+])
