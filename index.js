@@ -35,6 +35,10 @@ function totalRevenue (drivers) {
   return drivers.reduce(addRevenue, 0);
 }
 
+function averageRevenue (drivers) {
+  
+}
+
 totalRevenue([
   { name: 'Bobby',   hometown: 'Pittsburgh',  revenue: 3000 },
   { name: 'Sally',   hometown: 'New York',    revenue: 2000 },
