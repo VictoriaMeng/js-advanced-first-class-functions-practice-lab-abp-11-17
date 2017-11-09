@@ -17,7 +17,12 @@ function driversByRevenue (drivers) {
     return number1 - number2;
   }
 
-  return drivers.sort(sorter);
+  for (const driver of drivers) {
+    
+  }
+
+  
+
 }
 
 
