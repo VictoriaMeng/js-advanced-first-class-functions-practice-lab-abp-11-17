@@ -1,5 +1,3 @@
 const callback = function (driver, index, drivers) {
-    console.log();
+    console.log(driver.name);
 }
-
-
