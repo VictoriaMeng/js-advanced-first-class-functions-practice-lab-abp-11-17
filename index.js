@@ -4,6 +4,10 @@ function logDriverNames (drivers) {
   }
 }
 
+function logDriversByHometown (drivers, place) {
+  
+}
+
 logDriverNames([
   { name: 'Bobby',   hometown: 'Pittsburgh',  revenue: 3000 },
   { name: 'Sally',   hometown: 'New York',    revenue: 2000 },
@@ -11,3 +15,5 @@ logDriverNames([
   { name: 'Annette', hometown: 'Los Angeles', revenue: 6000 },
   { name: 'Bobby',   hometown: 'Tampa Bay',   revenue: 5000 }
 ]);
+
+
