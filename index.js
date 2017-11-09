@@ -1,9 +1,15 @@
 
-const printDrivers = function (driver, index, drivers) {
+const logDriverNames = function (driver, index, drivers) {
   console.log(`${driver.name}`);
 }
 
 
 
 
-[{name: 'Annie'}, {name: 'Bobby'}].forEach(printDrivers);
+function logDriversByHometown() {
+
+}
+
+
+
+[{name: 'Annie'}, {name: 'Bobby'}].forEach(callback);
