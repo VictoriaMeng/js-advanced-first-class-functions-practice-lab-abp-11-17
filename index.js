@@ -4,4 +4,4 @@ const logDriverNames = function (driver, index, drivers) {
   }
 }
 
-logDriverNames([{name: "Annie"}, {name: "Bob"}])
+[{name: "Annie"}, {name: "Bob"}].forEach(logDriverNames);
