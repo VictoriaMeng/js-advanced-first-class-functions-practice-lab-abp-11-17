@@ -1,5 +1,5 @@
 
-const logDriverNames = function (driver, index, drivers) {
+const printDriver = function (driver, index, drivers) {
   console.log(`${driver.name}`);
 }
 
